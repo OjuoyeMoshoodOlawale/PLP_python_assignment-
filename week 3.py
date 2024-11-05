@@ -10,3 +10,4 @@ def calculate_discount(price, discount_percent):
  else:
   return price
 
+print(1)
