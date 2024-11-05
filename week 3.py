@@ -18,3 +18,21 @@ Coding question
 Create a function called divisible_by_ten() that has one parameter named num.
 The function should return True if num is divisible by 10, and False otherwise. Consider using modulo operator % to check for divisibility.
 '''
+# Question  1
+def larger_power(number,power):
+result=number**power
+if result>5000:
+ return True
+else:
+ return False
+#print(larger_power(20,89))
+#print(larger_power(2,6))
+# Question 2
+def divisible_by_ten(number):
+ if number % 10 ==0:
+  return True
+ else: return False
+ 
+#print(divisible_by_ten(1345))
+#print(divisible_by_ten(1200))
+
