@@ -5,9 +5,11 @@ Using the calculate_discount function, prompt the user to enter the original pri
 
 def calculate_discount(price, discount_percent):
  cost_price= price * (1- discount_percent/100)
- if discount >= 20:
+ if discount_percent >= 20:
   return cost_price
  else:
   return price
 
-print(1)
+main_price=int(input("Input Price: "))
+discount=int(input("Input Discount Percentage: "))
+print(calculate_discount(main_price,discount))
